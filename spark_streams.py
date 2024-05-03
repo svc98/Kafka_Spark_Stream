@@ -1,9 +1,10 @@
 import logging
-
 from cassandra.cluster import Cluster
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_json, col
 from pyspark.sql.types import StructType, StructField, StringType
+
+
 
 def create_keyspace(session):
     session.execute("""
@@ -126,6 +127,7 @@ def create_selection_df_from_kafka(input_spark_df):
     print(sel)
 
     return sel
+
 def create_cassandra_connection():
     try:
         cluster = Cluster(['localhost'])
@@ -134,6 +136,7 @@ def create_cassandra_connection():
     except Exception as e:
         logging.error(f"Cassandra connection error due to exception: {e}")
         return None
+
 
 
 if __name__ == "__main__":
