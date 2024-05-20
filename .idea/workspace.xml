@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e71c5bfa-ffd2-4db3-b40a-4dc3a275584f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/dags/kafka-streams.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/kafka-streams.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_streams.py" beforeDir="false" afterPath="$PROJECT_DIR$/spark_streams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/latest" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/latest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
